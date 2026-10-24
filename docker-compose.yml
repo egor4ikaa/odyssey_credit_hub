@@ -17,7 +17,7 @@ services:
     environment:
       DATABASE_URL: postgresql://alfa:alfa@db:5432/alfa?schema=public
       SESSION_SECRET: alfa-hack-secret-change-me-0123456789abcdef
-      # YANDEX_API_KEY: ""
+      # YANDEX_API_KEY: " "
       # YANDEX_FOLDER_ID: ""
     depends_on:
       db:
